@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    color: rgb(66, 51, 32);
+    font-family:'Gill Sans';
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 25%;
+    height: 200px; /* Define a altura desejada */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    object-position: center; /* Centraliza a imagem */
+}
+
+img{
+    width: 25%;
+    border-radius: 8px;
+}
+
+table{
+    color: rgb(66, 51, 32);
+    font-size: 20px;
+    padding: 10px;
+    font-family:'Gill Sans';
+    width: 100%;
+    border-radius: 8px;
+}
+
+nav{
+    background-color: rgb(202, 173, 135);
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+nav li {
+	display:inline;
+	margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(66, 51, 32);    
+    font-family:'Gill Sans';
+    margin-left: 0;
+}
+
+nav a {
+	color: rgb(77, 59, 37);
+	font-weight: bold;
+	font-size: 15px;
+    text-decoration:none;
+    font-family:'Gill Sans';
+}
+
+body{
+    background-color: rgb(202, 164, 115);
+}
+
+footer{
+    font-family:'Gill Sans';
+    text-align: center;
+    color: rgb(77, 59, 37);
+    font-weight: bold;
+    background-color: rgb(202, 173, 135);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
