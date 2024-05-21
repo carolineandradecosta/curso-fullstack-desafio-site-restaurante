@@ -6,38 +6,9 @@ h1{
     text-transform: uppercase;
 }
 
-.container{
+nav{
     display: flex;
     align-items: center;
-}
-
-.imagens{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.imagens img {
-    width: 25%;
-    height: 200px; /* Define a altura desejada */
-    object-fit: cover; /* Mantém a proporção da imagem */
-    object-position: center; /* Centraliza a imagem */
-}
-
-img{
-    width: 25%;
-    border-radius: 8px;
-}
-
-table{
-    color: rgb(66, 51, 32);
-    font-size: 20px;
-    padding: 10px;
-    font-family:'Gill Sans';
-    width: 100%;
-    border-radius: 8px;
-}
-
-nav{
     background-color: rgb(202, 173, 135);
     width: 100%;
     text-transform: uppercase;
@@ -60,6 +31,27 @@ nav a {
 	font-size: 15px;
     text-decoration:none;
     font-family:'Gill Sans';
+}
+
+table{
+    color: rgb(66, 51, 32);
+    font-size: 20px;
+    padding: 10px;
+    font-family:'Gill Sans';
+    width: 100%;
+    border-radius: 8px;
+}
+
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagens img {
+    width: 25%;
+    height: 200px;
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 8px;
 }
 
 body{

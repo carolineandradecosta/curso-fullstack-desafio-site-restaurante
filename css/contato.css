@@ -25,12 +25,9 @@ h4{
     text-transform: uppercase;
 }
 
-.container{
+nav{
     display: flex;
     align-items: center;
-}
-
-nav{
     background-color: rgb(202, 173, 135);
     width: 100%;
     text-transform: uppercase;
@@ -40,10 +37,7 @@ nav{
 nav li {
 	display:inline;
 	margin: 15px;
-    font-size: 20px;
-    font-weight: bold;
     color: rgb(66, 51, 32);    
-    font-family:'Gill Sans';
     margin-left: 0;
 }
 
@@ -62,7 +56,6 @@ body{
 .entreemcontato{
     display: flex;
     align-items: center;
-    font-size: 20px;
 }
 
 section, li{
@@ -112,7 +105,6 @@ footer{
 
 .form-group textarea {
     height: 100px;
-    resize: vertical;
 }
 
 button {

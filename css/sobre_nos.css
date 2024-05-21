@@ -17,12 +17,6 @@ h3{
     color: rgb(77, 59, 37);
     font-family:'Gill Sans';
     font-weight:normal;
-
-}
-
-.container{
-    display: flex;
-    align-items: center;
 }
 
 img{
@@ -30,6 +24,8 @@ img{
 }
 
 nav{
+    display: flex;
+    align-items: center;
     background-color: rgb(202, 173, 135);
     width: 100%;
     text-transform: uppercase;
@@ -39,9 +35,6 @@ nav{
 nav li {
 	display:inline;
 	margin: 15px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(66, 51, 32);    
     font-family:'Gill Sans';
     margin-left: 0;
 }
@@ -62,11 +55,6 @@ section{
     display: flex;
     align-items: center;
     font-size: 20px;
-}
-
-section, li{
-    font-size: 20px;
-    list-style-type:none;
 }
 
 footer{
